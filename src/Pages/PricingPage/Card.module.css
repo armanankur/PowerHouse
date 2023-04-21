@@ -1,0 +1,76 @@
+.cardContainer{
+    margin-top: 10rem;
+    height: 480px;
+    width: 350px;
+    background-color: transparent;
+    border: 4px solid #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    transition: transform 0.5s ease;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cardContainer:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+.pass{
+    height: 150px;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 12px;
+    border-bottom: 4px solid #fff;
+}
+.pass .plans{
+    margin-top: 1rem;
+    color: #c7f618;
+    text-shadow: 0.9px 0.1px 0.1px rgb(0, 0, 0);
+}
+.pass .amt{
+    margin-top: 1rem;
+    color: aliceblue;
+    text-shadow: 0.9px 0.1px 0.1px rgb(0, 0, 0);
+}
+.pass  span{
+    font-size: 2rem;
+    color: aqua;
+    text-shadow: 0.9px 0.1px 0.1px rgb(0, 0, 0);
+}
+sub{
+color: 	
+#3fff00;
+font-size: medium;
+}
+.facilities{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+.facilities h3{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color:	
+    #3fff00;
+    text-shadow: 0.9px 0.1px 0.1px rgb(0, 0, 0);
+}
+.facilities .lists{
+    list-style: none;
+    margin: 1rem;
+}
+.facilities .list{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #E0E0E0;
+    font-weight: 900;
+    text-shadow: 0.9px 0.1px 0.1px rgb(0, 0, 0);
+}
+.btnContainer{
+    margin-top: 2.5rem;
+    height: 70px;
+    width: auto;
+    margin-left: 2rem;
+
+}

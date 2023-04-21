@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  border: 2px solid;
+    background: url("https://images.pexels.com/photos/6389886/pexels-photo-6389886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")  no-repeat ;
+    background-size: cover;
+  padding-top: 15vh;
+}
+
+.Container1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+.Container2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  height: 65vh;
+}
+
+.box {
+  width: 30vw;
+  font-size: 1.3rem;
+  font-family: "Hubballi", cursive;
+  font-family: "Lora", serif;
+  font-family: "Playfair Display", serif;
+  color: white;
+  text-shadow: 0.9px 0.1px 0.1px rgb(0, 0, 0);
+}
+
+.box1 {
+  border: 2px solid;
+  width: 20vw;
+  height: 45vh;
+}
+
+.lists {
+  width: 25vw;
+  height: 45vh;
+}
+
+.points {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0px 10px 0px;
+  color:#bfff00;
+  text-shadow: 0.9px 0.1px 0.1px rgb(0, 0, 0);
+}
+
+.pointsDec {
+  list-style: none;
+  font-family: "Hubballi", cursive;
+  font-family: "Lora", serif;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0.9px 0.1px 0.1px rgb(0, 0, 0);
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  position: relative;
+  top: 35px;
+  background-color: #b71c1c;
+  color: white;
+  text-shadow: 0.9px 0.1px 0.1px rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.h1 {
+  color:  #D81B60;
+  text-shadow: 0.9px 0.1px 0.1px rgb(0, 0, 0);
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Noto+Sans:wght@300;900&family=Poppins:ital,wght@0,400;1,100&family=Roboto+Mono:ital,wght@0,500;0,700;1,100&display=swap');
+.mainContainer{
+    background: url("https://images.pexels.com/photos/2294400/pexels-photo-2294400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    /* background-attachment: fixed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formContainer{
+    margin-top: 15vh;
+    height: 560px;
+    width: 500px;
+    border: 5px solid #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+ h2{
+    font-family: Roboto Mono;
+    font-size: 40px;
+    color: #EEEEEE;
+}
+.inputField {
+    margin-top: 5px;
+    height: auto;
+  width: auto;
+    align-items: center;
+    text-align: center;
+}
+.btnContainer{
+    margin-left: 80px;
+}
+label{
+    font-size: 20px;
+    color:  #EEEEEE;
+    font-family: Roboto Mono;
+}
+.switch{
+    color:  #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Roboto Mono;
+}
+.login{
+    font-weight: 900;
+    color: #C62828;
+}

@@ -1,0 +1,134 @@
+.mainContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("./TrainingPageImages/img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image {
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.5rem;
+  height: 35vh;
+  width: 20vw;
+  margin-top: 2rem;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  overflow: hidden;
+ padding: 3rem;
+
+}
+.container {
+  display: flex;
+  height: 40vh;
+  width: 100%;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+
+.CarouselContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+.childCarouselContainer {
+  display: flex;
+  align-items: center;
+}
+.button1 {
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #ffffff2f;
+  height: 50px;
+  width: 80px;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  font-family: Poppins;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.button2 {
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #ffffff31;
+  height: 50px;
+  width: 80px;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  font-family: Poppins;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.parentCarouselContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wholeteam {
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #b71c1c;
+  height: max-content;
+  width: max-content;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  font-family: Poppins;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.names {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.heading1 {
+  margin-top: 2.5rem;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.heading2 {
+  margin-top: 1rem;
+  padding: 2rem;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.job {
+  color: white;
+  font-size: 0.6rem;
+}

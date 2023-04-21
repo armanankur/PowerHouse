@@ -1,0 +1,17 @@
+.mainContainer {
+  height: 100vh;
+  width: 100vw;
+  /* background: url("https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") */
+  /* background: url("https://images.pexels.com/photos/3253501/pexels-photo-3253501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")   */
+  background: url(./PricingPageImage/pricebg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  flex-wrap: wrap;
+}

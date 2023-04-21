@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 10vh;
+    background: url("./ProgramPageImages/program1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.innerBox1{
+    width: 25vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 2rem;
+    
+}
+
+.innerBox2{
+    width: 50vw;
+    height: 60vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    position: relative;
+    bottom: 3.5rem;
+}
+
+
+ .img {
+width: 50vw;
+height: 60vh;
+border-radius: 2rem;   
+} 
+
+.h2{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 13rem;
+    z-index: 2;
+    color: #fff;
+    text-shadow: 0.9px 0.1px 0.1px rgb(0, 0, 0);
+    background-color: transparent;
+}
+
